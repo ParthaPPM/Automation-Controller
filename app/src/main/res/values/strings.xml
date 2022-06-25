@@ -1,0 +1,64 @@
+<resources>
+	<string name="app_name">Automation Controller</string>
+
+	<!-- Activity names -->
+	<string name="home_automation_activity_name">My Home</string>
+	<string name="home_automation_room_activity_name">My Room</string>
+	<string name="edit_room_activity_name">Edit Room</string>
+	<string name="add_room_activity_name">Add Room</string>
+	<string name="edit_device_activity_name">Edit Device</string>
+	<string name="add_device_activity_name">Add Device</string>
+
+	<!-- Other strings -->
+	<string name="add_button_text">Add</string>
+	<string name="on_off_button_text">ON/OFF</string>
+	<string name="update_complete">List Updated</string>
+	<string name="delete_room_alert_title">Delete Room?</string>
+	<string name="delete_room_alert_message">Deleting the room will also delete all the devices present in the room. Are you sure you want to continue?</string>
+	<string name="delete_device_alert_title">Delete Device?</string>
+	<string name="delete_device_alert_message">Deleting the device will remove the device from this room. Are you sure you want to continue?</string>
+	<string name="room_delete_complete">Room deleted</string>
+	<string name="device_delete_complete">Device deleted</string>
+	<string name="cancel">Cancel</string>
+	<string name="send_success">Signal Sent</string>
+	<string name="send_failure">Could not perform the action</string>
+	<string name="send_error">An error occurred while sending the signal</string>
+	<string name="image">Image</string>
+
+	<!-- Menu item strings -->
+	<string name="save">Save</string>
+	<string name="delete">Delete</string>
+	<string name="edit">Edit</string>
+	<string name="refresh">Refresh</string>
+
+	<!-- Edit activity strings -->
+	<string name="id">ID</string>
+	<string name="name">Name</string>
+	<string name="type">Type</string>
+	<string name="ip_address">IP Address</string>
+	<string name="room_name_empty_error_message">Room name cannot be empty</string>
+	<string name="device_name_empty_error_message">Device name cannot be empty</string>
+
+	<!-- Room types -->
+	<string name="drawing_room">Drawing Room</string>
+	<string name="bed_room">Bed Room</string>
+	<string name="kitchen">Kitchen</string>
+	<string name="bathroom">Bathroom</string>
+	<string-array name="room_names_list">
+		<item>@string/drawing_room</item>
+		<item>@string/bed_room</item>
+		<item>@string/kitchen</item>
+		<item>@string/bathroom</item>
+	</string-array>
+
+	<!-- Device types -->
+	<string name="light">Light</string>
+	<string name="fan">Fan</string>
+	<string name="night_bulb">Night Bulb</string>
+	<string-array name="device_names_list">
+		<item>@string/light</item>
+		<item>@string/fan</item>
+		<item>@string/night_bulb</item>
+	</string-array>
+
+</resources>

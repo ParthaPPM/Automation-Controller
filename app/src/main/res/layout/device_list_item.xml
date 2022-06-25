@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:baselineAligned="false">
+
+	<ImageView
+		android:id="@+id/device_image"
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:padding="5dp"
+		android:contentDescription="@string/image"
+		android:src="@drawable/image_unknown"/>
+
+	<LinearLayout
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="4"
+		android:orientation="vertical"
+		android:layout_gravity="center">
+
+		<TextView
+			android:id="@+id/device_name_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="24sp"
+			android:textColor="@color/black"
+			android:text="Table Fan"/>
+
+		<TextView
+			android:id="@+id/device_type_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="@color/black"
+			android:text="fan"/>
+
+		<TextView
+			android:id="@+id/ip_address_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="IP: 192.168.1.23"/>
+	</LinearLayout>
+
+	<Button
+		android:id="@+id/on_off_button"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:layout_gravity="center"
+		android:layout_marginEnd="5dp"
+		android:focusable="false"
+		android:text="@string/on_off_button_text"/>
+</LinearLayout>
